@@ -1,10 +1,10 @@
-.lds-ring {
+.lds-r {
     display: inline-block;
     position: relative;
     width: 80px;
     height: 80px;
 }
-.lds-ring div {
+.lds-r div {
     box-sizing: border-box;
     display: block;
     position: absolute;
@@ -13,20 +13,20 @@
     margin: 8px;
     border: 8px solid #8b53cf;
     border-radius: 50%;
-    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    animation: lds-r 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
     border-color: #8b53cf transparent transparent transparent;
 }
-.lds-ring div:nth-child(1) {
+.lds-r div:nth-child(1) {
     animation-delay: -0.45s;
 }
-.lds-ring div:nth-child(2) {
+.lds-r div:nth-child(2) {
     animation-delay: -0.3s;
 }
-.lds-ring div:nth-child(3) {
+.lds-r div:nth-child(3) {
     animation-delay: -0.15s;
 }
 
-@keyframes lds-ring {
+@keyframes lds-r {
     0% {
         transform: rotate(0deg);
     }
@@ -35,7 +35,7 @@
     }
 }
 
-.loading-screen {
+.l-screen {
     position: fixed;
     top: 0;
     left: 0;
@@ -71,12 +71,12 @@ body{
     font-family: Roboto, sans-serif;
 }
 
-#header_logo {
+#header {
     padding: 15px 0; 
     text-align: center;
 }
 
-#header_logo i {
+#header i {
     color: #353535;
     position: absolute;
     left: 30px;
@@ -84,11 +84,11 @@ body{
    font-size: large;
   }
 
-#header_logo img{
+#header img{
     margin: 10px 0; 
 }
 
-.location {
+.locate {
     background: #e7e3e3;
     display: flex;
     justify-content: center;
@@ -99,11 +99,11 @@ body{
     text-align: center;
 }
 
-.location i {
+.locate i {
     margin-right: 5px;
 }
 
-.locationDiv {
+.locateDiv {
     border: none;
     background: none;
     font-size: 1em;
@@ -112,30 +112,30 @@ body{
 
 }
 
-.booking {
+.bookings {
     background-color: #f1eeee;
     padding: 30px 0;
     text-align: center;
 }
 
-.booking_content {
+.bookings_content {
     margin: 0 auto; 
    
 }
 
-#bookingHeader {
+#bookingsHeader {
     font-weight: bold;
     font-size: 1.5em;
 }
 
-#bookingPar {
+#bookingsPar {
     color: #585858;
     text-align: center;
     font-size: 1.1em;
     margin: 10px 15px; 
 }
 
-#bookingButton {
+#bookingsButton {
     color: white;
     border: none;
     display: block; 
@@ -149,18 +149,18 @@ body{
     transition: 0.3s ease-in-out;
 }
 
-#bookingButton:hover {
+#bookingsButton:hover {
     transition: 0.3s ease-in-out;
     transform: scale(1.03);
     box-shadow: 0px 6px 6px 6px #c9c8c8;
     background: linear-gradient(#f78ed9 , #9c6fd3);
 }
   
-.info {
+.information {
     margin: 40px;
 }
 
-.rounded-button {
+.round-button {
     position: relative;
     background-color: #f3f2f2;
     border-radius: 25px;
@@ -201,7 +201,7 @@ body{
     font-size: 19px;
 }
 
-#purple_rounded-button{
+#purple_round-button{
     background-color: #f7f2fd;
     position: relative;
     border-radius: 25px;
@@ -223,7 +223,7 @@ body{
     font-size: 19px;
 }
 
-#purple_rounded-button{
+#purple_round-button{
     background-color: #f7f2fd;
     position: relative;
     border-radius: 25px;
@@ -357,7 +357,7 @@ body{
 
 @media (min-width: 768px) {
 
-    .info {
+    .information {
         margin: 40px;
         display: flex;
         justify-content: space-between;
